@@ -6646,7 +6646,7 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important; }
+  margin-bottom: 1rem !important; }
 
 .ml-4,
 .mx-4 {
@@ -8731,7 +8731,8 @@ h1, h2, h3, h4, h5,
     background: #ffbd39;
     border: 1px solid #ffbd39 !important;
     color: #000000 !important;
-    margin-top: -50px; 
+    margin-top: -10px;
+    margin-left: 22px;
   }
     .btn.btn-primary:hover {
       border: 1px solid #ffbd39 !important;
