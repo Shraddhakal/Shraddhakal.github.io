@@ -2086,7 +2086,8 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #fff;
   background-color: #007bff;
-  border-color: #007bff; }
+  border-color: #007bff; 
+}
   .btn-primary:hover {
     color: #fff;
     background-color: #0069d9;
@@ -8729,7 +8730,9 @@ h1, h2, h3, h4, h5,
   .btn.btn-primary {
     background: #ffbd39;
     border: 1px solid #ffbd39 !important;
-    color: #000000 !important; }
+    color: #000000 !important;
+    margin-top: -50px; 
+  }
     .btn.btn-primary:hover {
       border: 1px solid #ffbd39 !important;
       background: #ffbd39 !important;
