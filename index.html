@@ -109,22 +109,89 @@
   transform: scale(1.1);
 }
 .circular-img-container {
-    width: 150px;  /* Set desired width */
-    height: 150px; /* Same as width */
-    overflow: hidden; /* Ensures the image stays within the container */
-    border-radius: 50%; /* Creates the circular shape */
-    display: flex; /* Centering the image */
+    width: 150px;  
+    height: 150px; 
+    overflow: hidden; 
+	border-radius: 50%; 
+    display: flex; 
     align-items: center;
     justify-content: center;
-    border: 5px solid #fff; /* Optional: Add border */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+    border: 5px solid #fff; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 .circular-img-container img {
-    padding-top: 92px;
+    padding-top: 100px;
     width: auto;
     height: 253%;
     object-fit: cover;
+}
+.about-div{
+		margin-top: -270;
+	}
+@media (max-width: 768px) {
+	.hero{
+		display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;
+        height: 100vh; 
+        text-align: center;
+	}
+	@media (max-width: 768px) {
+    
+    .ftco-about .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-about {
+        justify-content: center;
+        margin-bottom: 20px; 
+    }
+
+    .about-info {
+        text-align: center; 
+    }
+
+    .progress {
+        height: 20px; 
+    }
+
+    
+    .counter-wrap .text {
+        text-align: center; 
+    }
+
+    .counter-wrap p a {
+        display: inline-block;
+        margin-top: 20px; 
+    }
+    
+    
+    .col-lg-5, .col-lg-7 {
+        padding: 0 15px;
+    }
+
+    
+    .circular-img-container img {
+        border-radius: 50%;
+        width: auto;
+        height: auto;
+		padding-top: 70px;
+        object-fit: cover; 
+		display: flex;
+		align-items: left;
+		justify-content: center;
+    }
+	.img-div{
+		padding-left: 50px;
+	}
+	.hero{
+		margin-bottom: -170;
+	}
+}
+
 }
 </style>
 </head>
@@ -145,6 +212,7 @@
 	        </ul>
 	      </div>
 	    </div>
+
 	  </nav>
 	  <section id="home-section" class="hero">
 		  <div class="home-slider  owl-carousel">
@@ -210,10 +278,7 @@
 	      </div>
 		</div>
     </section>
-
-
-
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    <section class="ftco-about img ftco-section ftco-no-pb about-div" id="about-section">
     	<div class="container">
 			<div class="row">
 				<div class="row d-flex align-items-stretch">
@@ -222,7 +287,7 @@
 						<div class="img-about img d-flex align-items-stretch">
 							<div class="overlay">
 								<div class="row">
-									<div class="col-sm-6 col-md-5">
+									<div class="col-sm-6 col-md-5 img-div">
 										<div class="circular-img-container">
 											<img src="images/shraddha pic.jpg" class="img-fluid" alt="Profile Image">
 										</div>
@@ -343,42 +408,22 @@
 		<br>
 		
 		<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-12git ">
 					<div class="resume-wrap ftco-animate">
-						<span class="date">2021-Present</span>
-						<h2>Senior Data Analyst</h2>
-						<span class="position">Merkle</span>
-						<p class="mt-4">Merkle, a leading CXM and media company with over 10K+ professionals globally. It's a part of Dentsu International. 
+						<span class="date">2023-Present</span>
+						<h2>Associate Software Engineer</h2>
+						<span class="position">Traegen System Private Limited</span>
+						<p class="mt-4">Software publishing, consultancy and supply [Software publishing includes production, supply and documentation of ready-made (non-customized) software, operating systems software, business & other applications software, computer games software for all platforms. 
 							<ul>
-								<li>Analysed ad campaigns, clickstream, and customer surveys data, identified an increasing demand and launched a strategic product line.</li>
-								<li>Developed time series forecasting models to predict sales and optimize marketing budgets, got model performance of 92%.</li>
-								<li>Designed and executed A/B tests, performed rigorous statistical analysis. Led to 20% MoM increase in the conversion rate.</li>
+								<li>Consultancy includes providing the best solution in the form of custom software after analyzing the user?s needs and problems.</li>
+								<li>Custom software also includes made-to-order software based on orders from specific users. Also, included are writing of software of any kind following directives of the users; software maintenance, web-page design].</li>
 							</ul>
 						</p>
 					</div>
-
-				</div>
-
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2018-2021</span>
-						<h2>Senior Data Analyst</h2>
-						<span class="position">iQuanti</span>
-						<p class="mt-4">iQuanti is a data-driven digital marketing analytics and solutions company, helps top 100 global brands. 
-							<ul>
-								<li>Performed in-depth market research and analysis to create online pages. Resulted in ~100% website growth and 30% increase in conversion rate YoY.</li>
-								<li>Delivered multiple training and mentorship sessions on analytical tools like SQL, MS Excel, Power BI, Tableau and Python.</li>
-								<li>Performed migration and enhancements for merchandising dashboard, involved data integration and its feature improvement.</li>
-							</ul>
-						</p>
-					</div>
-
 				</div>
 			</div>
-
 		<br>
 		<br>
-
 		<div class="row">
 			<h1 class="big-4">Education</h1>
 			<div class="underline"></div>
